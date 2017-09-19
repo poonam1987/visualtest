@@ -1,0 +1,31 @@
+{
+  "tests" : [ {
+    "name" : "AIAHomePageTest#AIAHomePage_shouldLookGood_onDevice (desktop 1024x768)",
+    "startedAt" : 1505746074571,
+    "endedAt" : 1505746097656,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 7,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 8
+    },
+    "testId" : "1-aiahomepagetest-aiahomepage-shouldlookgood-ondevice-desktop-1024x768-",
+    "failed" : true,
+    "duration" : 23085
+  }, {
+    "name" : "WelcomePageTest#welcomePage_shouldLookGood_onDevice (desktop 1024x768)",
+    "startedAt" : 1505746102762,
+    "endedAt" : 1505746106416,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 1,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "2-welcomepagetest-welcomepage-shouldlookgood-ondevice-desktop-1024x768-",
+    "failed" : false,
+    "duration" : 3654
+  } ]
+}

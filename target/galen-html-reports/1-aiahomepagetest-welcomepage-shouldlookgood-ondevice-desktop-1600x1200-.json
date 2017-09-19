@@ -1,0 +1,135 @@
+{
+  "testId" : "1-aiahomepagetest-welcomepage-shouldlookgood-ondevice-desktop-1600x1200-",
+  "name" : "AIAHomePageTest#welcomePage_shouldLookGood_onDevice (desktop 1600x1200)",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout /specs/aiaCommon.spec",
+      "status" : "error",
+      "time" : 1505224104857,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Header",
+        "place" : {
+          "filePath" : "/specs/aiaCommon.spec",
+          "lineNumber" : 13
+        },
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 16
+            },
+            "name" : "inside screen 0px top",
+            "highlight" : [ "header", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 17
+            },
+            "name" : "centered horizontally inside screen 1px",
+            "highlight" : [ "header", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 18
+            },
+            "name" : "height ~ 40px",
+            "highlight" : [ "header" ]
+          } ]
+        }, {
+          "name" : "aia-logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 21
+            },
+            "name" : "inside image-container",
+            "highlight" : [ "aia-logo", "image-container" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 22
+            },
+            "name" : "below header 3px",
+            "errors" : [ "\"aia-logo\" is 14px below \"header\" instead of 3px" ],
+            "highlight" : [ "aia-logo", "header" ]
+          } ]
+        }, {
+          "name" : "phone-number",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 25
+            },
+            "name" : "inside header ~ 174px left",
+            "errors" : [ "\"phone-number\" is 1185px left which is not in range of 172 to 176px" ],
+            "highlight" : [ "phone-number", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 26
+            },
+            "name" : "above image-container",
+            "highlight" : [ "phone-number", "image-container" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Footer",
+        "place" : {
+          "filePath" : "/specs/aiaCommon.spec",
+          "lineNumber" : 33
+        },
+        "objects" : [ {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 35
+            },
+            "name" : "height ~ 150px",
+            "errors" : [ "\"footer\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 36
+            },
+            "name" : "below content 0px",
+            "errors" : [ "\"footer\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "phone-number" : {
+          "area" : [ 1185, 0, 142, 34 ]
+        },
+        "header" : {
+          "area" : [ 0, 0, 1522, 40 ]
+        },
+        "screen" : {
+          "area" : [ 0, 0, 1522, 7482 ]
+        },
+        "aia-logo" : {
+          "area" : [ 175, 54, 144, 77 ]
+        },
+        "image-container" : {
+          "area" : [ 0, 36, 1522, 556 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

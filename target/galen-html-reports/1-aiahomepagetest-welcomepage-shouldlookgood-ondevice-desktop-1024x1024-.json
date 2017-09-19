@@ -1,0 +1,158 @@
+{
+  "testId" : "1-aiahomepagetest-welcomepage-shouldlookgood-ondevice-desktop-1024x1024-",
+  "name" : "AIAHomePageTest#welcomePage_shouldLookGood_onDevice (desktop 1024x1024)",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout /specs/aiaCommon.spec",
+      "status" : "error",
+      "time" : 1505305320096,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Header",
+        "place" : {
+          "filePath" : "/specs/aiaCommon.spec",
+          "lineNumber" : 15
+        },
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 18
+            },
+            "name" : "inside screen 0px top",
+            "highlight" : [ "header", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 19
+            },
+            "name" : "height ~ 40px",
+            "highlight" : [ "header" ]
+          } ]
+        }, {
+          "name" : "aia-logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 22
+            },
+            "name" : "inside image-container",
+            "highlight" : [ "aia-logo", "image-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 23
+            },
+            "name" : "below header 14px",
+            "highlight" : [ "aia-logo", "header" ]
+          } ]
+        }, {
+          "name" : "phone-number",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 26
+            },
+            "name" : "inside header ~ 50px right",
+            "highlight" : [ "phone-number", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 27
+            },
+            "name" : "above image-container",
+            "highlight" : [ "phone-number", "image-container" ]
+          } ]
+        }, {
+          "name" : "plan-button-container",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 30
+            },
+            "name" : "width 1170px",
+            "errors" : [ "\"plan-button-container\" width is 930px instead of 1170px" ],
+            "highlight" : [ "plan-button-container" ]
+          } ]
+        }, {
+          "name" : "next-button",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 33
+            },
+            "name" : "width 44.56px",
+            "errors" : [ "\"next-button\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "previous-button",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 36
+            },
+            "name" : "width 73.68px",
+            "errors" : [ "\"previous-button\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      }, {
+        "name" : "Footer",
+        "place" : {
+          "filePath" : "/specs/aiaCommon.spec",
+          "lineNumber" : 43
+        },
+        "objects" : [ {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 45
+            },
+            "name" : "height ~ 306px",
+            "errors" : [ "\"footer\" height is 321px which is not in range of 304 to 308px" ],
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "phone-number" : {
+          "area" : [ 801, 0, 143, 34 ]
+        },
+        "plan-button-container" : {
+          "area" : [ 32, 2103, 930, 16 ]
+        },
+        "footer" : {
+          "area" : [ 0, 7305, 994, 321 ]
+        },
+        "header" : {
+          "area" : [ 0, 0, 994, 40 ]
+        },
+        "screen" : {
+          "area" : [ 0, 0, 1004, 7626 ]
+        },
+        "aia-logo" : {
+          "area" : [ 32, 54, 144, 77 ]
+        },
+        "image-container" : {
+          "area" : [ 0, 36, 994, 556 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

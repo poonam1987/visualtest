@@ -1,0 +1,133 @@
+{
+  "testId" : "1-aiahomepagetest-aiahomepage-shouldlookgood-ondevice-desktop-1024x768-",
+  "name" : "AIAHomePageTest#AIAHomePage_shouldLookGood_onDevice (desktop 1024x768)",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout /specs/aiaCommon.spec",
+      "status" : "error",
+      "time" : 1505746097651,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Header",
+        "place" : {
+          "filePath" : "/specs/aiaCommon.spec",
+          "lineNumber" : 14
+        },
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 17
+            },
+            "name" : "inside screen 0px top",
+            "highlight" : [ "header", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 18
+            },
+            "name" : "height ~ 40px",
+            "highlight" : [ "header" ]
+          } ]
+        }, {
+          "name" : "aia-logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 21
+            },
+            "name" : "inside image-container",
+            "highlight" : [ "aia-logo", "image-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 22
+            },
+            "name" : "below header 14px",
+            "highlight" : [ "aia-logo", "header" ]
+          } ]
+        }, {
+          "name" : "phone-number",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 25
+            },
+            "name" : "inside header ~ 50px right",
+            "highlight" : [ "phone-number", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 26
+            },
+            "name" : "above image-container",
+            "highlight" : [ "phone-number", "image-container" ]
+          } ]
+        }, {
+          "name" : "plan-button-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 29
+            },
+            "name" : "width 930px",
+            "highlight" : [ "plan-button-container" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Footer",
+        "place" : {
+          "filePath" : "/specs/aiaCommon.spec",
+          "lineNumber" : 37
+        },
+        "objects" : [ {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "/specs/aiaCommon.spec",
+              "lineNumber" : 39
+            },
+            "name" : "height ~ 306px",
+            "errors" : [ "\"footer\" height is 321px which is not in range of 304 to 308px" ],
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "phone-number" : {
+          "area" : [ 801, 0, 143, 34 ]
+        },
+        "plan-button-container" : {
+          "area" : [ 32, 2038, 930, 16 ]
+        },
+        "footer" : {
+          "area" : [ 0, 7257, 994, 321 ]
+        },
+        "header" : {
+          "area" : [ 0, 0, 994, 40 ]
+        },
+        "screen" : {
+          "area" : [ 0, 0, 1004, 7578 ]
+        },
+        "aia-logo" : {
+          "area" : [ 32, 54, 144, 77 ]
+        },
+        "image-container" : {
+          "area" : [ 0, 36, 994, 491 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

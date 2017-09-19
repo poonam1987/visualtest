@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 38.334 sec <<< FAILURE! - in TestSuite
+AIAHomePage_shouldLookGood_onDevice(com.galenframework.java.sample.tests.AIAHomePageTest)  Time elapsed: 23.083 sec  <<< FAILURE!
+com.galenframework.support.LayoutValidationException: /specs/aiaCommon.spec, tags: [desktop]
+  - "footer" height is 321px which is not in range of 304 to 308px (/specs/aiaCommon.spec:39)
+
+	at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:129)
+	at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:111)
+	at com.galenframework.java.sample.tests.AIAHomePageTest.AIAHomePage_shouldLookGood_onDevice(AIAHomePageTest.java:24)
+
+welcomePage_shouldLookGood_onDevice(com.galenframework.java.sample.tests.WelcomePageTest)  Time elapsed: 3.653 sec  <<< FAILURE!
+java.io.FileNotFoundException: /specs/welcomePage.spec
+	at com.galenframework.speclang2.pagespec.PageSpecReader.read(PageSpecReader.java:43)
+	at com.galenframework.api.Galen.checkLayout(Galen.java:68)
+	at com.galenframework.api.Galen.checkLayout(Galen.java:59)
+	at com.galenframework.api.Galen.checkLayout(Galen.java:52)
+	at com.galenframework.api.Galen.checkLayout(Galen.java:141)
+	at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:125)
+	at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:111)
+	at com.galenframework.java.sample.tests.WelcomePageTest.welcomePage_shouldLookGood_onDevice(WelcomePageTest.java:16)
+

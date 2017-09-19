@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.galenframework.java.sample.tests.WelcomePageTest" time="10.205" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="idea.version" value="2016.2.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_51\jre\bin"/>
+    <property name="java.vm.version" value="25.51-b03"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7538"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\p748057\Desktop\Galen Framework\galen-sample-java-tests-master\galen-sample-java-tests-master"/>
+    <property name="java.runtime.version" value="1.8.0_51-b16"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\p748057\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.2.4\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_51\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Attachmate\EXTRA!\;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Mozilla\Firefox;C:\Users\p748057\Desktop\Softwares\apache-maven-3.3.9-bin\apache-maven-3.3.9/bin;C:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;C:\Program Files\Java\jdk1.8.0_51\bin;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Users\p748057\AppData\Roaming\npm;C:\Program Files (x86)\Mozilla\Firefox;C:\Program Files (x86)\Git\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\Java\jdk1.8.0_51\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\p748057"/>
+    <property name="user.timezone" value="Australia/Sydney"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="idea.launcher.bin.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.2.4\bin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="p748057"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.2.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.4.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.2.4\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_51\jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=2016.2.4 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_51"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_51\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.2.4\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="welcomePage_shouldLookGood_onDevice" classname="com.galenframework.java.sample.tests.WelcomePageTest" time="5.224">
+    <failure message="/specs/welcomePage.spec, tags: [tablet]&#10;  - &quot;header&quot; is absent on page (\specs/common.spec:15)&#10;  - &quot;header&quot; is absent on page (\specs/common.spec:16)&#10;  - &quot;header&quot; is absent on page (\specs/common.spec:17)&#10;  - &quot;header-logo&quot; is absent on page (\specs/common.spec:20)&#10;  - &quot;header-logo&quot; is absent on page (\specs/common.spec:21)&#10;  - &quot;header-text&quot; is absent on page (\specs/common.spec:24)&#10;  - &quot;header-text&quot; is absent on page (\specs/common.spec:36)&#10;  - &quot;menu&quot; is absent on page (\specs/common.spec:43)&#10;  - &quot;menu&quot; is absent on page (\specs/common.spec:44)&#10;  - Cannot find locator for &quot;menu-item-1&quot; in page spec (\specs/common.spec:54)&#10;  - &quot;content&quot; is absent on page (\specs/common.spec:83)&#10;  - &quot;content&quot; is absent on page (\specs/common.spec:84)&#10;  - Cannot find locator for &quot;text-block-1&quot; in page spec (/specs/welcomePage.spec:14)&#10;  - Cannot find locator for &quot;text-block-1&quot; in page spec (/specs/welcomePage.spec:21)&#10;  - Cannot find locator for &quot;text-block-1&quot; in page spec (/specs/welcomePage.spec:22)&#10;  - &quot;login-button&quot; is absent on page (/specs/welcomePage.spec:14)&#10;  - &quot;login-button&quot; is absent on page (/specs/welcomePage.spec:25)&#10;  - &quot;login-button&quot; is absent on page (/specs/welcomePage.spec:26)&#10;  - &quot;login-button&quot; is absent on page (/specs/welcomePage.spec:27)&#10;  - &quot;login-button&quot; is absent on page (/specs/welcomePage.spec:45)&#10;  - Cannot find locator for &quot;text-block-3&quot; in page spec (/specs/welcomePage.spec:14)&#10;  - &quot;greeting&quot; is absent on page (/specs/welcomePage.spec:17)&#10;  - &quot;greeting&quot; is absent on page (/specs/welcomePage.spec:18)&#10;  - &quot;greeting&quot; is absent on page (/specs/welcomePage.spec:41)&#10;  - &quot;greeting&quot; is absent on page (/specs/welcomePage.spec:42)&#10;  - &quot;footer&quot; is absent on page (\specs/common.spec:94)&#10;  - &quot;footer&quot; is absent on page (\specs/common.spec:95)&#10;" type="com.galenframework.support.LayoutValidationException">com.galenframework.support.LayoutValidationException: /specs/welcomePage.spec, tags: [tablet]
+  - "header" is absent on page (\specs/common.spec:15)
+  - "header" is absent on page (\specs/common.spec:16)
+  - "header" is absent on page (\specs/common.spec:17)
+  - "header-logo" is absent on page (\specs/common.spec:20)
+  - "header-logo" is absent on page (\specs/common.spec:21)
+  - "header-text" is absent on page (\specs/common.spec:24)
+  - "header-text" is absent on page (\specs/common.spec:36)
+  - "menu" is absent on page (\specs/common.spec:43)
+  - "menu" is absent on page (\specs/common.spec:44)
+  - Cannot find locator for "menu-item-1" in page spec (\specs/common.spec:54)
+  - "content" is absent on page (\specs/common.spec:83)
+  - "content" is absent on page (\specs/common.spec:84)
+  - Cannot find locator for "text-block-1" in page spec (/specs/welcomePage.spec:14)
+  - Cannot find locator for "text-block-1" in page spec (/specs/welcomePage.spec:21)
+  - Cannot find locator for "text-block-1" in page spec (/specs/welcomePage.spec:22)
+  - "login-button" is absent on page (/specs/welcomePage.spec:14)
+  - "login-button" is absent on page (/specs/welcomePage.spec:25)
+  - "login-button" is absent on page (/specs/welcomePage.spec:26)
+  - "login-button" is absent on page (/specs/welcomePage.spec:27)
+  - "login-button" is absent on page (/specs/welcomePage.spec:45)
+  - Cannot find locator for "text-block-3" in page spec (/specs/welcomePage.spec:14)
+  - "greeting" is absent on page (/specs/welcomePage.spec:17)
+  - "greeting" is absent on page (/specs/welcomePage.spec:18)
+  - "greeting" is absent on page (/specs/welcomePage.spec:41)
+  - "greeting" is absent on page (/specs/welcomePage.spec:42)
+  - "footer" is absent on page (\specs/common.spec:94)
+  - "footer" is absent on page (\specs/common.spec:95)
+
+	at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:129)
+	at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:111)
+	at com.galenframework.java.sample.tests.WelcomePageTest.welcomePage_shouldLookGood_onDevice(WelcomePageTest.java:16)
+</failure>
+    <system-out><![CDATA[Configuring TestNG with: TestNG652Configurator
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 22801
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="welcomePage_shouldLookGood_onDevice" classname="com.galenframework.java.sample.tests.WelcomePageTest" time="4.981">
+    <failure message="/specs/welcomePage.spec, tags: [desktop]&#10;  - &quot;header&quot; is absent on page (\specs/common.spec:15)&#10;  - &quot;header&quot; is absent on page (\specs/common.spec:16)&#10;  - &quot;header&quot; is absent on page (\specs/common.spec:17)&#10;  - &quot;header&quot; is absent on page (\specs/common.spec:28)&#10;  - &quot;header-logo&quot; is absent on page (\specs/common.spec:20)&#10;  - &quot;header-logo&quot; is absent on page (\specs/common.spec:21)&#10;  - &quot;header-text&quot; is absent on page (\specs/common.spec:24)&#10;  - &quot;header-text&quot; is absent on page (\specs/common.spec:31)&#10;  - &quot;menu&quot; is absent on page (\specs/common.spec:43)&#10;  - &quot;menu&quot; is absent on page (\specs/common.spec:44)&#10;  - &quot;menu&quot; is absent on page (\specs/common.spec:49)&#10;  - Cannot find locator for &quot;menu-item-1&quot; in page spec (\specs/common.spec:54)&#10;  - &quot;content&quot; is absent on page (\specs/common.spec:83)&#10;  - &quot;content&quot; is absent on page (\specs/common.spec:84)&#10;  - &quot;content&quot; is absent on page (\specs/common.spec:89)&#10;  - Cannot find locator for &quot;text-block-1&quot; in page spec (/specs/welcomePage.spec:14)&#10;  - Cannot find locator for &quot;text-block-1&quot; in page spec (/specs/welcomePage.spec:21)&#10;  - Cannot find locator for &quot;text-block-1&quot; in page spec (/specs/welcomePage.spec:22)&#10;  - &quot;login-button&quot; is absent on page (/specs/welcomePage.spec:14)&#10;  - &quot;login-button&quot; is absent on page (/specs/welcomePage.spec:25)&#10;  - &quot;login-button&quot; is absent on page (/specs/welcomePage.spec:26)&#10;  - &quot;login-button&quot; is absent on page (/specs/welcomePage.spec:27)&#10;  - &quot;login-button&quot; is absent on page (/specs/welcomePage.spec:36)&#10;  - Cannot find locator for &quot;text-block-3&quot; in page spec (/specs/welcomePage.spec:14)&#10;  - &quot;greeting&quot; is absent on page (/specs/welcomePage.spec:17)&#10;  - &quot;greeting&quot; is absent on page (/specs/welcomePage.spec:18)&#10;  - &quot;greeting&quot; is absent on page (/specs/welcomePage.spec:32)&#10;  - &quot;greeting&quot; is absent on page (/specs/welcomePage.spec:33)&#10;  - &quot;footer&quot; is absent on page (\specs/common.spec:94)&#10;  - &quot;footer&quot; is absent on page (\specs/common.spec:95)&#10;" type="com.galenframework.support.LayoutValidationException">com.galenframework.support.LayoutValidationException: /specs/welcomePage.spec, tags: [desktop]
+  - "header" is absent on page (\specs/common.spec:15)
+  - "header" is absent on page (\specs/common.spec:16)
+  - "header" is absent on page (\specs/common.spec:17)
+  - "header" is absent on page (\specs/common.spec:28)
+  - "header-logo" is absent on page (\specs/common.spec:20)
+  - "header-logo" is absent on page (\specs/common.spec:21)
+  - "header-text" is absent on page (\specs/common.spec:24)
+  - "header-text" is absent on page (\specs/common.spec:31)
+  - "menu" is absent on page (\specs/common.spec:43)
+  - "menu" is absent on page (\specs/common.spec:44)
+  - "menu" is absent on page (\specs/common.spec:49)
+  - Cannot find locator for "menu-item-1" in page spec (\specs/common.spec:54)
+  - "content" is absent on page (\specs/common.spec:83)
+  - "content" is absent on page (\specs/common.spec:84)
+  - "content" is absent on page (\specs/common.spec:89)
+  - Cannot find locator for "text-block-1" in page spec (/specs/welcomePage.spec:14)
+  - Cannot find locator for "text-block-1" in page spec (/specs/welcomePage.spec:21)
+  - Cannot find locator for "text-block-1" in page spec (/specs/welcomePage.spec:22)
+  - "login-button" is absent on page (/specs/welcomePage.spec:14)
+  - "login-button" is absent on page (/specs/welcomePage.spec:25)
+  - "login-button" is absent on page (/specs/welcomePage.spec:26)
+  - "login-button" is absent on page (/specs/welcomePage.spec:27)
+  - "login-button" is absent on page (/specs/welcomePage.spec:36)
+  - Cannot find locator for "text-block-3" in page spec (/specs/welcomePage.spec:14)
+  - "greeting" is absent on page (/specs/welcomePage.spec:17)
+  - "greeting" is absent on page (/specs/welcomePage.spec:18)
+  - "greeting" is absent on page (/specs/welcomePage.spec:32)
+  - "greeting" is absent on page (/specs/welcomePage.spec:33)
+  - "footer" is absent on page (\specs/common.spec:94)
+  - "footer" is absent on page (\specs/common.spec:95)
+
+	at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:129)
+	at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:111)
+	at com.galenframework.java.sample.tests.WelcomePageTest.welcomePage_shouldLookGood_onDevice(WelcomePageTest.java:16)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 12778
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+</testsuite>
